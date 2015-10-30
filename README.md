@@ -8,6 +8,7 @@
             @Override
             public void onSuccess(EaseMobIM service) {
                 //成功获取到了组件的服务
+                service.start();
             }
             @Override
             public void onFailure(int errorNo, String strMsg)                       
