@@ -2,8 +2,7 @@
 ##环信IM组件
 启动环信IM
 
-    ComponentManager.getInstance().searchComponent(
-        ComponentFactory.getInstance().getComponent("easemobimsdk"), 
+    ComponentManager.getInstance().searchComponent("easemobimsdk", 
         new ServerCallback<EaseMobIM>(){
             @Override
             public void onSuccess(EaseMobIM service) {
