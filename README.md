@@ -6,7 +6,7 @@
         ComponentFactory.getInstance().getComponent("easemobimsdk"), 
         new ServerCallback<EaseMobIM>(){
             @Override
-            public void onSuccess(组件接口类型 service) {
+            public void onSuccess(EaseMobIM service) {
                 //成功获取到了组件的服务
             }
             @Override
