@@ -2,7 +2,7 @@
 ##环信IM组件
 启动环信IM
 
-    ComponentManager.getInstance().searchComponent("easemobimsdk", 
+    ComponentManager.getInstance().searchComponent("ChatUIDemo", 
         new ServerCallback<EaseMobIM>(){
             @Override
             public void onSuccess(EaseMobIM service) {
